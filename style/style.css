@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+footer {
+    
+    background-color: #4EA93B;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+main {
+    position: relative;
+    
+}
+header {    
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    height: auto;
+    background-color: #3E942C;
+}
+nav {
+    background-color: #4EA93B;
+}
+input {
+    display: none;
+}
+label {
+    display: none;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding: 0;
+}
+li {
+    border-radius: 59px;    
+    display: block;
+    background: #007000;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+    width: 50%;    
+    text-align: center;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.tituloprincipal {
+    text-align: center;
+}
+.titulopagina {
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.contenedorflex {
+    display: flex;
+    justify-content: space-around;
+}
+.presentacion { 
+    width: 20%;
+}
+.textoflex {
+    font-size: 30px;
+    text-align: center;
+}
+body {
+    background-color: #92E277;
+    position: relative;
+    min-height: 100vh;
+}
+
+  .proyecto{
+    position: relative;
+    left: 50px;
+    top: -100px;
+    font-size: 25px;
+    line-height: 30px;
+    height: 20px;
+    text-align: center;
+  }
+  .proyectoC{
+    position: relative;
+    left: 5px;
+    top: -290px;
+  }
+  .subtitulo{
+   position: relative;
+   top: -250px;
+  }
+  .subtituloC{
+    position: relative;
+    top: -250px;
+   }
+  html {
+    height: 100%;
+}
+a:link{
+    color: #ffff;
+    text-decoration: none;
+}
+a:visited{
+    color: #ffff;
+    text-decoration: none;
+} 
+@media all and (max-width: 430px) {
+    .contenedorflex {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    .presentacion{
+        position: relative;
+        display: flex;
+        left: 200px;
+    }
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    nav {
+        justify-content: left;
+        flex-wrap: wrap;
+        width: 300%;
+        display: flex;
+        background-color: #4EA93B;     
+    }
+    header {    
+        width: 100%;
+        margin: 0px;
+        position: relative;
+        height: auto;
+        background-color: #3E942C;
+        overflow-x: hidden;
+    }
+    body {
+        box-sizing: border-box;
+    }
+    footer {                         
+        bottom: 0;
+        position: fixed;
+        flex-wrap: wrap;
+        display: flex;
+        background-color: #4EA93B;
+        width: 100%;
+        height: 3em;
+        margin: auto;
+        font-size: 15px;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    input:checked  ~ ul{   
+    display:block;
+      }
+      input:checked ~ label {   
+      background: lightgrey; 
+          }
+      label:hover{              
+      background: grey;
+      }
+     label {                    
+       box-sizing: border-box;
+       display: block;
+       border: 1px solid black;
+       border-radius: 5px;
+       width: 30px;
+       height: 30px;
+       line-height: 30px;
+       font-weight: bold;
+       text-align: center;
+       user-select: none;
+       background-color: cadetblue;
+  
+        }
+        ul{
+            display: none;
+        }
+        
+  }
+  ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  ul li a:hover{
+    color: rgb(79, 244, 46);
+  }
+  @media all and (min-width: 1024px) {
+    footer {                         
+        bottom: 0;
+        position: absolute;
+        flex-wrap: wrap;
+        display: flex;
+        background-color: #4EA93B;
+        width: 100%;
+        height: 3em;
+        margin: auto;
+        font-size: 15px;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+  }
+  .paginatitulo {
+    text-align: center;
+    background-color: #7AB45F;
+    color: rgb(0, 0, 0);
+}
+.integrante{
+    width: 57%;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.integrantes{
+    width: 70%;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contenedorflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    left: 150px;
+}
+.cajaintegrante {
+    background-color: #007000;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(90, 91, 91);
+    text-align: center;
+    position: relative;
+    top: -10px;
+    right: 160px;
+}
+.nombreintegrante {
+    font-family: sans-serif;
+    font-size: larger; 
+    text-align: center;
+}
+.datos{
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    width: 59%;
+    height: auto;
+    left: 300px;
+    justify-content: center;
+    top: -200px;
+    border-radius: 59px;
+    background-color: #009c24;
+}
+.cajadatos{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    color: #fff;
+
+}
+.listaa{
+    flex-wrap: wrap;
+    display: flex;
+    color: #ffff;
+    position: relative;
+    
+}
+@media all and (max-width: 430px) {
+    .proyecto{
+        display: flex;
+        position: relative;
+        top: 10px;
+        left: -5px;
+        text-align: center;
+    }
+    .subtitulo{
+        display: flex;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        font-size: 45px;
+        text-align: center;
+
+    }
+    .datos{
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        top: 10px;
+        left: 100px;
+    }
+    .ulres{
+        width: 15%;
+    }
+    .proyectoC{
+        display: flex;
+        position: relative;
+        top: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+    .subtituloC{
+        display: flex;
+        position: relative;
+        top: 10px;
+        justify-content: center;
+    }
+
+}
+
+
